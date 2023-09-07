@@ -1,4 +1,4 @@
-# pymerkletools
+# blockcerts-pymerkletools
 [![PyPI version](https://badge.fury.io/py/blockcerts-merkletools.svg)](https://badge.fury.io/py/blockcerts-merkletools)
 
 This is a Python port of [solidity-pymerkletools](https://github.com/f8n/solidity-pymerkletools), which supports Web3's solidity keccak hashing function.  This fork supports updated dependencies per Blockcerts project requirements.
