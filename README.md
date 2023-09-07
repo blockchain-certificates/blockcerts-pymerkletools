@@ -1,22 +1,22 @@
 # pymerkletools
-[![PyPI version](https://badge.fury.io/py/solidity-merkletools.svg)](https://badge.fury.io/py/solidity-merkletools) [![Build Status](https://travis-ci.org/f8n/solidity-merkletools.svg?branch=main)](https://travis-ci.org/f8n/solidity-merkletools)
+[![PyPI version](https://badge.fury.io/py/blockcerts-merkletools.svg)](https://badge.fury.io/py/blockcerts-merkletools)
 
-This is a Python port of [merkle-tools](https://github.com/tierion/merkle-tools). Then it was forked to support using Web3's solidity keccak hashing function.
+This is a Python port of [solidity-pymerkletools](https://github.com/f8n/solidity-pymerkletools), which supports Web3's solidity keccak hashing function.  This fork supports updated dependencies per Blockcerts project requirements.
 
 Tools for creating Merkle trees, generating merkle proofs, and verification of merkle proofs.
 
 ## Installation
 
 ```
-pip install solidity-merkletools
+pip install blockcerts-merkletools
 ```
 
 ### Create MerkleTools Object
 
 ```python
-import solidity_merkletools
+import blockcerts_merkletools
 
-mt = MerkleTools()  # default hash algorithm is Web3.solidityKeccak
+mt = MerkleTools()  # default hash algorithm is Web3.solidity_keccak
 ```
 
 ## Methods
