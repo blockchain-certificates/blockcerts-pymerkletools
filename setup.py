@@ -15,7 +15,7 @@ with open('requirements.txt') as f:
 setup(
     name="blockcerts-merkletools",
     install_requires=reqs,
-    version="1.0.3",
+    version="1.0.4",
     description="Merkle Tools",
     classifiers=[
         "Intended Audience :: Developers",
